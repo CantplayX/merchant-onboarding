@@ -1,0 +1,55 @@
+
+
+{
+  "personalDetails": {
+    "id": 4,
+    "name": "John",
+    "surname": "Doe",
+    "email": "john.doe@example.com",
+    "nationality": "American",
+    "dob": "1990-01-01",
+    "homeAddressLine1": "123 Main St",
+    "homeAddressLine2": "Apt 4B",
+    "postalCode": "12345",
+    "phone": "+1234567890",
+    "NRIC": "123456789"
+  }
+}
+
+{
+  "personalDetails": {
+    "name": "John",
+    "surname": "Doe",
+    "email": "john.doe@example.com",
+    "nationality": "American",
+    "dob": "1990-01-01",
+    "homeAddressLine1": "123 Main St",
+    "homeAddressLine2": "Apt 4B",
+    "postalCode": "12345",
+    "phone": "+1234567890",
+    "NRIC": "123456789"
+  },
+  "businessDetails": {
+    "industry": "Retail",
+    "business_website": "http://example.com",
+    "product_description": "Retail products"
+  },
+  "publicDetails": {
+    "statement_descriptor": "Merchant Onboarding",
+    "business_website": "http://example.com",
+    "phone": "+1234567890"
+  },
+  "bankDetails": {
+    "bankName": "Bank XYZ",
+    "branchName": "Downtown Branch",
+    "accountNumber": "987654321",
+    "SwiftCode": "XYZ123"
+  }
+}
+
+
+{
+    // "id": 1,
+    "username": "superadmin",
+    "password": "test"
+  }
