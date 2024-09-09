@@ -1,0 +1,18 @@
+.pixelBackground {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  position: absolute; /* Ensure it covers the entire viewport */
+  top: 0;
+  left: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.pixelBackground .block {
+  position: absolute; /* Position blocks absolutely */
+  background-color: #86dbb3;
+}
