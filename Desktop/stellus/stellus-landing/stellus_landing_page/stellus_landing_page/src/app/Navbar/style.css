@@ -1,0 +1,8 @@
+.navbarr {
+  position: fixed;
+  background: inherit;
+  z-index: 1000;
+  width: 100%;
+  backdrop-filter: blur(10px);
+  /* margin-bottom: 10em; */
+}

@@ -1,0 +1,44 @@
+.grid-bg {
+  margin: 0;
+  padding: 0;
+
+  width: 100%;
+  min-height: 95vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: rgba(162, 212, 162, 0.1);
+  background-image: linear-gradient(
+      rgba(162, 212, 162, 0.1) 0.05em,
+      transparent 0.05em
+    ),
+    linear-gradient(90deg, rgba(162, 212, 162, 0.102) 0.05em, transparent 0.05em);
+  background-size: 2em 2em;
+  animation: gridFade 6s ease-in-out infinite alternate;
+}
+
+.text-grid {
+  background: rgba(162, 212, 162, 0.05);
+  background-image: linear-gradient(
+      rgba(162, 212, 162, 0.15) 0.02em,
+      transparent 0.02em
+    ),
+    linear-gradient(90deg, rgba(162, 212, 162, 0.15) 0.02em, transparent 0.02em);
+  background-size: 1em 1em;
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.hero-col-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* PARTICLES JS */
+canvas {
+  display: block;
+}
